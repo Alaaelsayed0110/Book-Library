@@ -1,0 +1,78 @@
+body{
+    background-image: url("WhatsApp Image 2025-02-09 at 2.22.58 AM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url("book-lock-512.webp");  
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s;
+    margin: auto;
+}
+.open {
+    background-image: url("pngtree-open-book-image_2223165.jpg") !important; 
+}
+
+#textInput{
+    margin-top: 20px;
+    width: 295px;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 300px;
+    left:500px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgba(9, 75, 73, 0.56);
+    outline: none;
+}
+
+.title{
+    font-size: 57px;
+    position: absolute;
+    top: 30px;
+    left: 563px;
+    color: rgba(9, 75, 73, 0.786);
+
+}
+button{
+    cursor: pointer;
+    width: 315px;
+    padding: 10px;
+    position: absolute;
+    bottom: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgba(9, 75, 73, 0.56);
+    outline: none;
+    left:500px;
+}
+button:hover{
+    background-color:  rgba(2, 80, 63, 0.424);
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.3s ease-in-out;
+    
+}
